@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1>django in 90 minutes</h1>
+				<h3>a quick way to get things done</h3>
+				<p>
+					<small>
+						by
+						<a href="http://digitalkultur.net">Dennis Schwertel</a>
+					</small>
+				</p>
+			</section>
+			<section>
+				<h2>wer bin ich</h2>
+				Medieninformatiker, Diplom
+				<br/> 8 Jahre bei Scholz und Volkmer (lead architect)
+				<br/> 5 Jahre django beginner workshops
+				<br/> seit April bei Divio
+			</section>
+			<section>
+				<h2>django in Wörtern</h2>
+
+				<ul>
+					<li>MVT-Webframework</li>
+					<li>Python 3</li>
+					<li>Aktuelle Version 1.11LTS / 2.0</li>
+					<li>Pluggability</li>
+					<li>Don’t repeat yourself (DRY)</li>
+					<li>Introspection</li>
+				</ul>
+
+			</section>
+			<section>
+				<h2>wo wird django genutzt</h2>
+				<ul>
+					<li>disqus</li>
+					<li>the onion</li>
+					<li>Washington Post</li>
+					<li>Bitbucket</li>
+					<li>Prezi</li>
+					<li>Pinterest</li>
+					<li>Mozilla</li>
+					<li>Nasa</li>
+					<li>Instagram</li>
+					<li>Canonical</li>
+				</ul>
+			</section>
+			<section>
+				<h2>wo habe ich django genutzt</h2>
+				<ul>
+					<li>Riese Müller</li>
+					<li>Mercedes-Benz</li>
+					<li>adidas Group </li>
+				</ul>
+			</section>
+			<section>
+				<h2>Was beinhaltet django?</h2>
+				<ul>
+					<li>Webserver</li>
+					<li>Middleware</li>
+					<li>URL-Dispatcher</li>
+					<li>View</li>
+					<li>Model: ORM-Mapper</li>
+					<li>Form-Validator</li>
+					<li>Admin Interface</li>
+					<li>Templates</li>
+					<li>...</li>
+				</ul>
+
+
+			</section>
+			<section>
+				<h2>Bei Fragen?</h2>
+				<ul>
+					<li>Offizielle Dokumentation: https://docs.djangoproject.com/ </li>
+					<li>Tango with django</li>
+					<li>Django polls tutorial</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+	</script>
+</body>
+
+</html>
