@@ -174,7 +174,7 @@ Shell debugging 2
      * all()
      * filter(...)
      * get(...)
-     * order()
+     * order_by()
      * save()
 
    * Chaining bei QuerySets
